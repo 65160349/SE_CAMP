@@ -5,167 +5,117 @@
         <meta charset="utf-8" />
     </head>
     <body> 
-        <h1>&lt;This is a He&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ading</h1>
-        <p><b>This</b> is a 
-            <br><hr /><br/>
-            <i>paragraph. ฮั่นแหน่</i>
-        </p>
-        <h1>Lists</h1>
-        <ul>
-            <li>A</li>
-            <li>B</li>
-            <li>C</li>
-        </ul>
-        <ol type="1">
-            <li>A</li>
-            <li>B</li>
-            <li>C</li>
-            <li>D</li>
-        </ol>
-        <ol type="I">
-            <li>A</li>
-            <li>B</li>
-            <li>C</li>
-            <li>D</li>
-        </ol>
-        <dl>
-            <dt> Group A</dt>
-            <dd>A</dd>
-            <dt> Group A</dt>
-            <dd>B</dd>
-            <dd>C</dd>
-        </dl>
-
-        <h1>Image</h1>
-        <img width="64px" src="https://cdn-icons-png.flaticon.com/512/2632/2632839.png" />
+        <h1>Workshop&nbsp;#HTML&nbsp;-&nbsp;FORM</h1>
         
-        <h1>Table</h1>
-        <table width="100%" border="1">
-            <thead>
-                <tr>
-                    <td>#</td>
-                    <td>Name Head</td>
-                </tr>
-            </thead>
-            <tfoot>
-                <tr>
-                    <td>#</td>
-                    <td>Name Foot</td>
-                </tr>
-            </tfoot>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>A</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>B</td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        2
-                    </td>  
-                </tr>
-                <tr>
-                    <td rowspan="2"
-                    >
-                        3
-                    </td>  
-                </tr>
-                <tr>
-                    <td>
-                        4
-                    </td>  
-                </tr>
-            </tbody>
-        </table>
-        <h1>FORM</h1>
         <form action="#">
             <table>
                 <tr>
-                    <td>input text</td>
+                    <td>ชื่อ</td>
                     <td><input type="text" /></td>
                 </tr>
                 <tr>
-                    <td>input date</td>
+                    <td>สกุล</td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td>วัน/เดือน/ปีเกิด</td>
                     <td><input type="date" /></td>
                 </tr>
                 <tr>
-                    <td>input datetime</td>
-                    <td>
-                        <input type="datetime-local" />
-                    </td>
+                    <td>อายุ</td>
+                    <td><input type="text" /></td>
                 </tr>
                 <tr>
-                    <td>input radio</td>
+                    <td>เพศ</td>
                     <td>
                         <input id="radio_a"
                                type="radio"
                                 name="same_radio"/>
-                        <label for="radio_a">Radio A</label>
+                        <label for="radio_a">ชาย</label>
                         <input  id="radio_b"
                                 type="radio" 
                                 name="same_radio"/>
-                        <label for="radio_b">Radio B</label>
+                        <label for="radio_b">หญิง</label>
                     </td>
                 </tr>
                 <tr>
-                    <td>input checkbox</td>
                     <td>
-                        <input type="checkbox"
-                                name="my_checkbox">Checkbox A
-                        <br>
-                        <input type="checkbox"
-                                name="my_checkbox">Checkbox B
+                        รูป
+                    </td>
+                    <td>
+                        <input type="file">
                     </td>
                 </tr>
                 <tr>
-                    <td>text area</td>
+                    <td>ที่อยู่</td>
                     <td><textarea rows="4" 
-                        placeholder="กรุณาป้อนข้อมูล"></textarea>
+                        placeholder=""></textarea>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        select
+                        สีที่ชอบ
                     </td>
                     <td>
                         <select>
                             <option
                             value="" 
                             disabled
-                            selected>-</option>
-                            <option>A</option>
-                            <option>B</option>
+                            selected>-เลือกสี-</option>
+                            <option value="สีแดง" style="background-color: red;color: black;">สีแดง</option>
+                            <option value="สีชมพู" style="background-color: palevioletred;color: black;">สีชมพู</option>
+                            <option value="สีส้ม" style="background-color: rgb(253, 91, 32);color: black;">สีส้ม</option>
+                            <option value="สีเหลือง" style="background-color: yellow;color: black;">สีเหลือง</option>
+                            <option value="สีเขียว" style="background-color: green;color: black;">สีเขียว</option>
+                            <option value="สีน้ำเงิน" style="background-color: blue;color: black;">สีน้ำเงิน</option>
+                            <option value="สีฟ้า" style="background-color: skyblue;color: black;">สีฟ้า</option>
+                            <option value="สีม่วง" style="background-color: purple;color: black;">สีม่วง</option>
+                            <option value="สีขาว" style="background-color: white;color: black;">สีขาว</option>
+                            <option value="สีดำ" style="background-color: black;color: white;">สีดำ</option>
+                            <option value="สีทอง" style="background-color: goldenrod;color: black;">สีทอง</option>
+                            <option value="สีเทา" style="background-color: grey;color: black;">สีเทา</option>
+                            
                         </select>
                     </td>
-                    <tr>
-                        <td>
-                            Flie
-                        </td>
-                        <td>
-                            <input type="file">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            button
-                        </td>
-                        <td>
-                            <input type="button" 
-                                    value="ข้อความ">
-                            <input type="reset" 
-                                    value="ข้อความ reset">        
-                            <input type="submit" 
-                                    value="ข้อความ S">
-                            <button type="submit">ข้อความ S</button>
-                            <button type="submit">ข้อความ B</button>
-                        </td>
-                    </tr>
                 </tr>
+                <tr>
+                    <td>แนวเพลงที่ชอบ</td>
+                    <td>
+                        <input id="radio_a"
+                               type="radio"
+                                name="same_radio"/>
+                        <label for="radio_a">เพื่อชีวิต</label>
+                        <input  id="radio_b"
+                                type="radio" 
+                                name="same_radio"/>
+                        <label for="radio_b">ลูกทุ่ง</label>
+                        <input  id="radio_b"
+                                type="radio" 
+                                name="same_radio"/>
+                        <label for="radio_b">อื่นๆ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <input type="checkbox"
+                                name="my_checkbox">ยินยอมให้เก็บข้อมูล
+                        <br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                    <input type="reset" 
+                        value="Reset"> 
+                    &emsp;&emsp;&emsp;&emsp;       
+                    <input type="submit" 
+                        value="Submit">
+                    </td>
+                </tr>    
             </table>
-            <br><br><br>
+               
         </form>
+        
     </body>
 </html>

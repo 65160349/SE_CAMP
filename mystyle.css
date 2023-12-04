@@ -12,7 +12,9 @@ h1{
     font-family: 'Times New Roman', Times, serif;
 }
 .coRed{
-    color: red;
+    color: #ff22ff;
+    color: rgb(0, 255, 0);
+    color: hsl(9, 50%, 50%);
 }
 .h1{
     font-size: 16pt;
@@ -24,3 +26,24 @@ hr{
     color: purple;
     border: 2px solid;
 } /*hr เส้น*/
+
+.box{
+    width: 400px;
+    height: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(21, 21, 92);
+    text-align: center;
+    border: 5px dashed rgb(0, 255, 0);
+    padding-top: 10%;
+    margin: 50px 25px;
+}
+
+.box:hover{
+    background-color: rgb(174, 0, 255);
+}
+a{
+    color: #010101;
+}
+a:link{
+    color: #ff0000;
+}

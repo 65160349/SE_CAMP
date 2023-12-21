@@ -8,7 +8,7 @@
     <h1><?php echo "Hello World<br><br>"; ?></h1>
     <?php echo "<h1>Hello World<br><br></h1>" ?>
     <?php $var_a = "SE CAMP" ?>
-    <?php echo $var_b = "Hello $var_a" ?>
+    <?php echo $var_b = 'Hello $var_a' ?>
     <br>
     <?php echo $var_c = "Hello $var_a" ?>
     <br> 
@@ -32,7 +32,7 @@
     <?php echo $var_c = 2; ?>
     <br>
     <?php 
-    echo $var_c
+    echo $var_c;
     echo "<br>";
     switch($var_c){
         case 1;
@@ -48,18 +48,37 @@
     $arry2[] = 2;
     $arry2[] = 3;
     $arry2[] = "Hello";
-    $arry2['SE'] = "World" ;
-    ?>
-
-    <?php print_r($arry);?>
+    $arry2[] = "World" ;
+    
+?>  <?php print_r($arry);?>
     <pre><?php print_r($arry);?></pre>
     <pre><?php print_r($arry1);?></pre>
     <pre><?php print_r($arry2);?></pre>
-<?php for($i = 0; $i < count($arry2); $i++){
-    
-}    
 
+    <?php for($i = 0; $i < count($arry2); $i++){ ?>
+    <h3><?php echo $arry2[$i]; ?></h3>
+    <?php } ?>
     
+    <?php foreach($arry2 As $key => $value){ ?>
+    <h3><?php echo $arry2[$key]; ?>
+        : <?php echo $key; ?>
+        : <?php echo $value; ?></h3>
+    <?php } ?>
+    <?php
+        pre($arry);
+    ?>
+    <?php
+    function pre($value){
+        echo "<pre>1";
+        print_r($value);
+        echo "</pre>";
+    }
+//    function pre($value){
+//        echo "<pre>";
+//        print_r($value);
+//        echo "</pre>";
+//    }
+    ?>
 
     
     

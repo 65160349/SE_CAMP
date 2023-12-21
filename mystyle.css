@@ -17,7 +17,7 @@ h1{
     color: hsl(9, 50%, 50%);
 }
 .h1{
-    font-size: 16pt;
+    font-family: itim,cursive;
 }
 #myP{
     font-size: 48pt;
@@ -39,8 +39,16 @@ hr{
 }    
     
 body{
-    padding-top: 125px;
-    padding-left: -40px;
+    font-family: itim,cursive;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;
+    justify-content: center;*/
+    height: auto;
+    width: auto;
+    margin: 0;
+   background-color: aliceblue;
+    background-size: cove
 
 }
 

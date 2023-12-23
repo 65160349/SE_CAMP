@@ -17,7 +17,7 @@ h1{
     color: hsl(9, 50%, 50%);
 }
 .h1{
-    font-size: 16pt;
+    font-family: itim,cursive;
 }
 #myP{
     font-size: 48pt;
@@ -38,7 +38,7 @@ hr{
     margin: 50px 25px;
 }    
     
-.box h2{
+body{
     padding-top: 125px;
     padding-left: -40px;
 
@@ -61,6 +61,13 @@ p.normal{
     font-style: normal;
     font-weight: bold;
 }
+
+.normal.font16{
+    font-size: 16pt;
+    font-style: normal;
+    font-weight: bold;
+}
+
 p.italic{
     font-style: italic;
     font-weight: bold;
@@ -73,4 +80,14 @@ div > div > p{
 div > p{
     font-size: smaller;
     font-weight: bold;
+}
+
+.box2{
+    position: relative;
+    left: 0px;
+    border: 3px solid #73AD21;
+
+}
+div + p{
+    background-color: yellow;
 }

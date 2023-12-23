@@ -31,24 +31,26 @@ hr{
     width: 400px;
     height: 400px;
     color: rgb(255, 255, 255);
-    background-color: rgb(14, 72, 7);
+    background-color:rgb(2, 63, 2);
     text-align: center;
-    border: 5px dashed rgb(0, 255, 0);
-    padding-top: 10%;
+    border: 5px dashed rgb(0,255,0);
+    padding-top: 10px;
     margin: 50px 25px;
-}    
-    
-body{
-    padding-top: 125px;
-    padding-left: -40px;
-
 }
+
+h2{
+    padding-top: 150px;
+    
+}
+    
 
 .box:hover{
     box-shadow: 10px 10px 14px 4px rgba(255, 0, 0, 0.41);
     background-color: rgb(136, 10, 10)
     
 }
+
+
 
 a{
     color: #010101;
